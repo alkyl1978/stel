@@ -1,0 +1,8 @@
+[submodule "ChibiOS"]
+	path = ChibiOS
+	url = gituser@nn-akk.ru:ChibiOS.git
+	branch = master
+[submodule "ChibiOS-Contrib"]
+	path = ChibiOS-Contrib
+	url = gituser@nn-akk.ru:ChibiOS-Contrib.git
+	branch = master

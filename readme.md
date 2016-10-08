@@ -1,0 +1,2 @@
+тестовая программа chibios stelaris
+
