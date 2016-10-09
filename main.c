@@ -74,15 +74,15 @@ int main(void)
 
   ledRed.port    = GPIOF;
   ledRed.pin     = GPIOF_LED_RED;
-  ledRed.sleep   = 100;
+  ledRed.sleep   = 500;
 
   ledGreen.port  = GPIOF;
   ledGreen.pin   = GPIOF_LED_GREEN;
-  ledGreen.sleep = 101;
+  ledGreen.sleep = 510;
 
   ledBlue.port   = GPIOF;
   ledBlue.pin    = GPIOF_LED_BLUE;
-  ledBlue.sleep  = 102;
+  ledBlue.sleep  = 520;
 
   /* Creating the blinker threads.*/
   chThdCreateStatic(waBlinkLedRed, sizeof(waBlinkLedRed), NORMALPRIO, blinkLed,
